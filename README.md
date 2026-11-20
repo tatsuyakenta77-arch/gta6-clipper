@@ -15,7 +15,7 @@ The clip was cut and rendered in the agent session with ffmpeg (1080x1920, under
 `VIDEO.json` holds the published video's address:
 
 ```json
-{"url": "https://www.youtube.com/shorts/<id>"}
+{"url": "https://www.youtube.com/shorts/G8pnBA02u6s"}
 ```
 
 `main.ts` copies `VIDEO.json` from this repository to `/output/VIDEO.json` — that is all the program has to do. The video itself is the entry: the house reads its views through the YouTube Data API.
